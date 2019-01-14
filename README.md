@@ -26,6 +26,7 @@ Presentation of useful tools to develop with Kubernetes locally
 - [kubefwd](https://github.com/txn2/kubefwd) : Bulk port forwarding Kubernetes services for local development
 - [Skaffolfd](https://github.com/GoogleContainerTools/skaffold) : Easy and Repeatable Kubernetes Development
 - [Telepresence](https://www.telepresence.io/) : Debug your Kubernetes service locally
+- [KubeSquash](https://github.com/solo-io/kubesquash/blob/master/README.md)
 
 ### GUI
 
