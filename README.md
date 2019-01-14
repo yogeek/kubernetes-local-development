@@ -32,3 +32,9 @@ Presentation of useful tools to develop with Kubernetes locally
 
 - [K8S Dashboard](https://github.com/kubernetes/dashboard)
 - [Kube-ops-view](https://github.com/hjacobs/kube-ops-view) : Read-only system dashboard for multiple K8s clusters
+
+
+## Useful links
+
+https://cloud.google.com/blog/products/containers-kubernetes/easier-kubernetes-development-from-your-laptop
+https://medium.com/@wso2tech/multi-node-kubernetes-cluster-with-vagrant-virtualbox-and-kubeadm-9d3eaac28b98
