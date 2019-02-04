@@ -17,6 +17,7 @@ Presentation of useful tools to develop with Kubernetes locally
 - [kubectx+kubens](https://github.com/ahmetb/kubectx) : Fast way to switch between clusters and namespaces
 - [kube-shell](https://github.com/cloudnativelabs/kube-shell) : An integrated shell for working with the Kubernetes CLI
 - [kube-prompt](https://github.com/c-bata/kube-prompt) : An interactive kubernetes client featuring auto-complete 
+- [K9S](https://github.com/derailed/k9s)
 - [kube-ps1](https://github.com/jonmosco/kube-ps1) : Kubernetes prompt info for bash and zsh
 - [Stern](https://github.com/wercker/stern) : Multi pod and container log tailing
 - [Kail](https://github.com/boz/kail) : Kubernetes log viewer
@@ -28,7 +29,7 @@ Presentation of useful tools to develop with Kubernetes locally
 - [Telepresence](https://www.telepresence.io/) : Debug your Kubernetes service locally
 - [KubeSquash](https://github.com/solo-io/kubesquash/blob/master/README.md)
 
-### GUI
+### GUI/TUI
 
 - [K8S Dashboard](https://github.com/kubernetes/dashboard)
 - [Kube-ops-view](https://github.com/hjacobs/kube-ops-view) : Read-only system dashboard for multiple K8s clusters
