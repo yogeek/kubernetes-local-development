@@ -1,4 +1,4 @@
-# Kubernetes Local Development
+# Local Development with Kubernetes :wheel_of_dharma:
 
 Presentation of useful tools to develop with Kubernetes locally
 
@@ -47,12 +47,18 @@ kubectl create -f https://github.com/pulumi/kubespy/raw/master/examples/trivial-
 - [Skaffolfd](https://github.com/GoogleContainerTools/skaffold) : Easy and Repeatable Kubernetes Development
 - [Telepresence](https://www.telepresence.io/) : Debug your Kubernetes service locally
 - [KubeSquash](https://github.com/solo-io/kubesquash/blob/master/README.md)
+- [Kompose](http://kompose.io/) ([Compatibility](https://github.com/docker/app/blob/master/docs/compatibility.md))
 
 ### GUI/TUI
 
 - [K8S Dashboard](https://github.com/kubernetes/dashboard)
 - [Kube-ops-view](https://github.com/hjacobs/kube-ops-view) : Read-only system dashboard for multiple K8s clusters
 
+## Learning
+
+- [Tutorials](https://kubernetes.io/docs/tutorials/)
+- [Playground](https://labs.play-with-k8s.com/)
+- [Katacoda](https://www.katacoda.com/courses/kubernetes)
 
 ## Useful links
 
