@@ -31,15 +31,13 @@ kubespy trace deploy gd/nginx-deployment
 # In another shell
 kubectl create -f https://k8s.io/examples/controllers/nginx-deployment.yaml 
 
-# In one shell (keep it displayed)
+# Pod
 kubespy status v1 Pod gd/nginx
-# In another shell
 kubectl create -f https://github.com/pulumi/kubespy/raw/master/examples/trivial-pulumi-example/yaml/nginx.yaml
 
-# In one shell (keep it displayed)
-kubespy status v1 Pod gd/nginx
-# In another shell
-kubectl create -f https://github.com/pulumi/kubespy/raw/master/examples/trivial-pulumi-example/yaml/nginx.yaml
+# Service
+kubespy trace service  gd/nginx
+kubectl create -f https://github.com/pulumi/kubespy/raw/master/examples/trivial-service-trace-example/yaml/nginx.yaml
 ```
 - [Krew](https://github.com/GoogleContainerTools/krew) : Package manager for "kubectl plugins"
 
