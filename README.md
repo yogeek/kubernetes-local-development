@@ -21,6 +21,27 @@ Presentation of useful tools to develop with Kubernetes locally
 - [kube-ps1](https://github.com/jonmosco/kube-ps1) : Kubernetes prompt info for bash and zsh
 - [Stern](https://github.com/wercker/stern) : Multi pod and container log tailing
 - [Kail](https://github.com/boz/kail) : Kubernetes log viewer
+- [KubeSpy](https://github.com/pulumi/kubespy) : Tools for observing Kubernetes resources in real time
+```
+kubectl create ns gd
+kubens gd
+
+# In one shell (keep it displayed)
+kubespy trace deploy gd/nginx-deployment
+# In another shell
+kubectl create -f https://k8s.io/examples/controllers/nginx-deployment.yaml 
+
+# In one shell (keep it displayed)
+kubespy status v1 Pod gd/nginx
+# In another shell
+kubectl create -f https://github.com/pulumi/kubespy/raw/master/examples/trivial-pulumi-example/yaml/nginx.yaml
+
+# In one shell (keep it displayed)
+kubespy status v1 Pod gd/nginx
+# In another shell
+kubectl create -f https://github.com/pulumi/kubespy/raw/master/examples/trivial-pulumi-example/yaml/nginx.yaml
+```
+- [Krew](https://github.com/GoogleContainerTools/krew) : Package manager for "kubectl plugins"
 
 ### Development
 
