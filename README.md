@@ -15,6 +15,12 @@ Presentation of useful tools to develop with Kubernetes locally
 ### Improve K8S command line UX
   
 - [kubectx+kubens](https://github.com/ahmetb/kubectx) : Fast way to switch between clusters and namespaces
+```
+# Tip : easy merge kube config files and switch contexts
+export KUBECONFIG=~/.kube/k1_config:~/.kube/k2_config:~/.kube/k3_config
+kubectx
+<3 contexts>
+```
 - [kube-shell](https://github.com/cloudnativelabs/kube-shell) : An integrated shell for working with the Kubernetes CLI
 - [kube-prompt](https://github.com/c-bata/kube-prompt) : An interactive kubernetes client featuring auto-complete 
 - [K9S](https://github.com/derailed/k9s)
