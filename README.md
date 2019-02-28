@@ -60,6 +60,10 @@ kubectl create -f https://github.com/pulumi/kubespy/raw/master/examples/trivial-
 - [K8S Dashboard](https://github.com/kubernetes/dashboard)
 - [Kube-ops-view](https://github.com/hjacobs/kube-ops-view) : Read-only system dashboard for multiple K8s clusters
 
+## Lightweight cluster
+
+- [K3S](https://github.com/rancher/k3s)
+
 ## Learning
 
 - [Tutorials](https://kubernetes.io/docs/tutorials/)
