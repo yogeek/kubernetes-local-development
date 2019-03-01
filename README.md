@@ -45,7 +45,8 @@ kubectl create -f https://github.com/pulumi/kubespy/raw/master/examples/trivial-
 kubespy trace service  gd/nginx
 kubectl create -f https://github.com/pulumi/kubespy/raw/master/examples/trivial-service-trace-example/yaml/nginx.yaml
 ```
-- [Krew](https://github.com/GoogleContainerTools/krew) : Package manager for "kubectl plugins"
+- [Krew](https://github.com/GoogleContainerTools/krew) : Package manager for "kubectl plugins" 
+  - [Plugins index](https://github.com/GoogleContainerTools/krew-index/tree/master/plugins)
 
 ### Development
 
@@ -63,12 +64,22 @@ kubectl create -f https://github.com/pulumi/kubespy/raw/master/examples/trivial-
 ## Lightweight cluster
 
 - [K3S](https://github.com/rancher/k3s)
+- [K8S on Raspberry](https://github.com/alexellis/k8s-on-raspbian)
 
 ## Learning
 
 - [Tutorials](https://kubernetes.io/docs/tutorials/)
 - [Playground](https://labs.play-with-k8s.com/)
 - [Katacoda](https://www.katacoda.com/courses/kubernetes)
+- [Official doc]https://kubernetes.io/docs/home/
+- Comics
+  - https://cloud.google.com/kubernetes-engine/kubernetes-comic/
+  - https://www.cncf.io/the-childrens-illustrated-guide-to-kubernetes/
+  - Zines 
+  
+  ![SceneFromK8S1](https://drawings.jvns.ca/drawings/scenes-from-kubernetes-page1.svg)![SceneFromK8S2](https://drawings.jvns.ca/drawings/scenes-from-kubernetes-page2.svg)
+  
+  ![K8SComponents](https://pbs.twimg.com/media/DBzjTTKUIAA1OvE.jpg:small)
 
 ## Useful links
 
