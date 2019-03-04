@@ -45,8 +45,15 @@ kubectl create -f https://github.com/pulumi/kubespy/raw/master/examples/trivial-
 kubespy trace service  gd/nginx
 kubectl create -f https://github.com/pulumi/kubespy/raw/master/examples/trivial-service-trace-example/yaml/nginx.yaml
 ```
-- [Krew](https://github.com/GoogleContainerTools/krew) : Package manager for "kubectl plugins" 
+- [Kubectl plugins](https://kubernetes.io/docs/tasks/extend-kubectl/kubectl-plugins/)  
+  - [Krew](https://github.com/GoogleContainerTools/krew) : Package manager for "kubectl plugins" 
   - [Plugins index](https://github.com/GoogleContainerTools/krew-index/tree/master/plugins)
+ ```
+ kubectl krew {search,info,install,upgrade,remove} 
+ ```
+  - Examples : 
+    - `kubectl view-utilization -h`
+    - `kubectl get-all --only-scope=namespace --namespace=default`
 
 ### Development
 
