@@ -73,6 +73,10 @@ kubectl create -f https://github.com/pulumi/kubespy/raw/master/examples/trivial-
 - [K3S](https://github.com/rancher/k3s)
 - [K8S on Raspberry](https://github.com/alexellis/k8s-on-raspbian)
 
+## Other tools
+
+- [Dive](https://github.com/wagoodman/dive)
+
 ## Learning
 
 - [Tutorials](https://kubernetes.io/docs/tutorials/)
