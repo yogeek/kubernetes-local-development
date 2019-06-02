@@ -5,10 +5,22 @@ Presentation of useful tools to develop with Kubernetes locally
 ## Local cluster
 
 - [Minikube](https://github.com/kubernetes/minikube) : Run Kubernetes locally on Windows, Mac or Linux.
+  - [demo](./minikube)
 
 - [MicroK8S](https://microk8s.io/) : A single package of k8s that installs on 42 flavours of Linux.
 
+- [Kind](https://kind.sigs.k8s.io/) : A tool for running local Kubernetes clusters using Docker container “nodes”.
+
 - [kubeadm-dind-cluster](https://github.com/kubernetes-sigs/kubeadm-dind-cluster) : A Kubernetes multi-node test cluster based on kubeadm.
+```
+
+```
+
+## Lightweight cluster
+
+- [K3S](https://github.com/rancher/k3s)
+
+- [K8S on Raspberry](https://github.com/alexellis/k8s-on-raspbian)
 
 ## Remote cluster
 
@@ -67,11 +79,6 @@ kubectl create -f https://github.com/pulumi/kubespy/raw/master/examples/trivial-
 
 - [K8S Dashboard](https://github.com/kubernetes/dashboard)
 - [Kube-ops-view](https://github.com/hjacobs/kube-ops-view) : Read-only system dashboard for multiple K8s clusters
-
-## Lightweight cluster
-
-- [K3S](https://github.com/rancher/k3s)
-- [K8S on Raspberry](https://github.com/alexellis/k8s-on-raspbian)
 
 ## Other tools
 
