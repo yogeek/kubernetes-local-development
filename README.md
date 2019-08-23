@@ -10,6 +10,7 @@ Presentation of useful tools to develop with Kubernetes locally
 - [MicroK8S](https://microk8s.io/) : A single package of k8s that installs on 42 flavours of Linux.
 
 - [Kind](https://kind.sigs.k8s.io/) : A tool for running local Kubernetes clusters using Docker container “nodes”.
+  - [demo](./kind)
 
 - [kubeadm-dind-cluster](https://github.com/kubernetes-sigs/kubeadm-dind-cluster) : A Kubernetes multi-node test cluster based on kubeadm.
 ```
