@@ -13,15 +13,9 @@ Presentation of useful tools to develop with Kubernetes locally
   - [demo](./kind)
 
 - [kubeadm-dind-cluster](https://github.com/kubernetes-sigs/kubeadm-dind-cluster) : A Kubernetes multi-node test cluster based on kubeadm.
-```
 
-```
+- [K3S](https://github.com/rancher/k3s) / [K3D](https://github.com/rancher/k3d) : lightweight Kubernetes distribution by Rancher
 
-## Lightweight cluster
-
-- [K3S](https://github.com/rancher/k3s)
-
-- [K8S on Raspberry](https://github.com/alexellis/k8s-on-raspbian)
 
 ## Remote cluster
 
