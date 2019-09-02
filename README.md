@@ -67,6 +67,7 @@ kubectl create -f https://github.com/pulumi/kubespy/raw/master/examples/trivial-
 - [kubefwd](https://github.com/txn2/kubefwd) : Bulk port forwarding Kubernetes services for local development
 - [Skaffolfd](https://github.com/GoogleContainerTools/skaffold) : Easy and Repeatable Kubernetes Development
 - [Telepresence](https://www.telepresence.io/) : Debug your Kubernetes service locally
+- [Tilt](https://tilt.dev/) : Manages local development instances for teams that deploy to Kubernetes
 - [KubeSquash](https://github.com/solo-io/kubesquash/blob/master/README.md)
 - [Kompose](http://kompose.io/) ([Conversion Matrix](https://github.com/kubernetes/kompose/blob/master/docs/conversion.md))
 
