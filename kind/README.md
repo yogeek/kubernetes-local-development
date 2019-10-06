@@ -79,3 +79,9 @@ source ~/.kind-completion
 kind completion zsh > /usr/local/share/zsh/site-functions/_kind
 autoload -U compinit && compinit
 ```
+
+## Ingress with kind
+
+https://banzaicloud.com/blog/kind-ingress/
+
+![Expose ports when deploying to kind](https://banzaicloud.com/img/blog/kind/kind-socat.png)
