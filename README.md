@@ -14,7 +14,7 @@ Presentation of useful tools to develop with Kubernetes locally
 
 - [kubeadm-dind-cluster](https://github.com/kubernetes-sigs/kubeadm-dind-cluster) : A Kubernetes multi-node test cluster based on kubeadm.
 
-- [K3S](https://github.com/rancher/k3s) / [K3D](https://github.com/rancher/k3d) : lightweight Kubernetes distribution by Rancher
+- [K3S](https://k3s.io/) / [K3D](https://k3d.io/) : lightweight Kubernetes distribution by Rancher
 
 
 ## Remote cluster
@@ -62,6 +62,8 @@ kubectl create -f https://github.com/pulumi/kubespy/raw/master/examples/trivial-
     - `kubectl view-utilization -h`
     - `kubectl get-all --only-scope=namespace --namespace=default`
 
+- [Arkade](https://github.com/alexellis/arkade) : helps you install kubernetes application with a single install command
+
 ### Development
 
 - [kubefwd](https://github.com/txn2/kubefwd) : Bulk port forwarding Kubernetes services for local development
@@ -75,6 +77,11 @@ kubectl create -f https://github.com/pulumi/kubespy/raw/master/examples/trivial-
 
 - [K8S Dashboard](https://github.com/kubernetes/dashboard)
 - [Kube-ops-view](https://github.com/hjacobs/kube-ops-view) : Read-only system dashboard for multiple K8s clusters
+- [K9S](https://github.com/derailed/k9s)
+- [Octant](https://octant.dev/docs/master/)
+- [Kubernetic](https://kubernetic.com/)
+- [k3x for k3d](https://github.com/inercia/k3x)
+- [Portainer](https://www.portainer.io/) : [Beta version](https://github.com/portainer/portainer-k8s) for Kubernetes
 
 ## Other tools
 
