@@ -87,12 +87,20 @@ kubectl create -f https://github.com/pulumi/kubespy/raw/master/examples/trivial-
 
 - [Dive](https://github.com/wagoodman/dive)
 
+## Chaos gaming tools 🕹
+
+- [Kube Invaders](https://github.com/lucky-sideburn/KubeInvaders)
+- [Wild West Kubernetes](https://github.com/gshipley/wild-west-kubernetes)
+- [Kube Doom](https://github.com/storax/kubedoom)
+- [Kube Thanos](https://github.com/berkay-dincer/kubethanos)
+- [Kube Chaos](https://github.com/Shogan/kube-chaos)
+
 ## Learning
 
 - [Tutorials](https://kubernetes.io/docs/tutorials/)
 - [Playground](https://labs.play-with-k8s.com/)
 - [Katacoda](https://www.katacoda.com/courses/kubernetes)
-- [Official doc]https://kubernetes.io/docs/home/
+- [Official doc](https://kubernetes.io/docs/home/)
 - Comics
   - https://cloud.google.com/kubernetes-engine/kubernetes-comic/
   - https://www.cncf.io/the-childrens-illustrated-guide-to-kubernetes/
