@@ -58,7 +58,7 @@ kubectl create -f https://github.com/pulumi/kubespy/raw/master/examples/trivial-
  ```
  kubectl krew {search,info,install,upgrade,remove} 
  ```
-  - Examples : 
+    Examples : 
     - `kubectl view-utilization -h`
     - `kubectl get-all --only-scope=namespace --namespace=default`
 
