@@ -99,6 +99,33 @@ kubectl create -f https://github.com/pulumi/kubespy/raw/master/examples/trivial-
 - [Kube Thanos](https://github.com/berkay-dincer/kubethanos)
 - [Kube Chaos](https://github.com/Shogan/kube-chaos)
 
+## Costing
+
+- [Kube Resource Report](https://github.com/hjacobs/kube-resource-report)
+```
+kubereport () {
+	mkdir -p /tmp/kubereport-output
+	echo ""
+	echo "----------------------------------------------------------"
+	echo "Merging config files found in KUBECONFIG var..."
+	echo "----------------------------------------------------------"
+	echo $KUBECONFIG | sed 's/:/\n/g'
+	echo ""
+	echo "----------------------------------------------------------"
+	kubectl config view --flatten > ~/.kube/config
+	echo "Generating report..."
+	echo "----------------------------------------------------------"
+	docker pull hjacobs/kube-resource-report
+	docker run -it --net=host -v ~/.kube/:/root/.kube/ -v /tmp/output:/output hjacobs/kube-resource-report /output
+	echo ""
+	echo "----------------------------------------------------------"
+	echo "Opening report..."
+	echo "----------------------------------------------------------"
+	xdg-open /tmp/output/index.html &
+}
+```
+- [KubeCost](https://kubecost.com/)
+
 ## Learning
 
 - [Tutorials](https://kubernetes.io/docs/tutorials/)
