@@ -12,7 +12,7 @@ Presentation of useful tools to develop with Kubernetes locally
 - [Kind](https://kind.sigs.k8s.io/) : A tool for running local Kubernetes clusters using Docker container “nodes”.
   - [demo](./kind)
 
-- [kubeadm-dind-cluster](https://github.com/kubernetes-sigs/kubeadm-dind-cluster) : A Kubernetes multi-node test cluster based on kubeadm.
+- [kubeadm-dind-cluster](https://github.com/kubernetes-sigs/kubeadm-dind-cluster) : A Kubernetes multi-node test cluster based on kubeadm. *DEPRECATED*
 
 - [K3S](https://k3s.io/) / [K3D](https://k3d.io/) : lightweight Kubernetes distribution by Rancher
 
@@ -68,6 +68,7 @@ kubectl create -f https://github.com/pulumi/kubespy/raw/master/examples/trivial-
 
 - [kubefwd](https://github.com/txn2/kubefwd) : Bulk port forwarding Kubernetes services for local development
 - [Skaffolfd](https://github.com/GoogleContainerTools/skaffold) : Easy and Repeatable Kubernetes Development
+- [KSync](https://github.com/ksync/ksync)
 - [Telepresence](https://www.telepresence.io/) : Debug your Kubernetes service locally
 - [Tilt](https://tilt.dev/) : Manages local development instances for teams that deploy to Kubernetes
 - [KubeSquash](https://github.com/solo-io/kubesquash/blob/master/README.md)
@@ -82,6 +83,9 @@ kubectl create -f https://github.com/pulumi/kubespy/raw/master/examples/trivial-
 - [Kubernetic](https://kubernetic.com/)
 - [k3x for k3d](https://github.com/inercia/k3x)
 - [Portainer](https://www.portainer.io/) : [Beta version](https://github.com/portainer/portainer-k8s) for Kubernetes
+- [KubeNav](https://github.com/kubenav/kubenav)
+- [Lens](https://github.com/lensapp/lens)
+- [Okteto](https://okteto.com/)
 
 ## Other tools
 
