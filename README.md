@@ -135,6 +135,7 @@ kubereport () {
 - Comics
   - https://cloud.google.com/kubernetes-engine/kubernetes-comic/
   - https://www.cncf.io/the-childrens-illustrated-guide-to-kubernetes/
+  - https://brennerm.github.io/posts/kubernetes-overview-diagrams.html
   - Zines 
   
   ![SceneFromK8S1](https://drawings.jvns.ca/drawings/scenes-from-kubernetes-page1.svg)![SceneFromK8S2](https://drawings.jvns.ca/drawings/scenes-from-kubernetes-page2.svg)
