@@ -30,7 +30,7 @@ kubectx
 ```
 - [kube-shell](https://github.com/cloudnativelabs/kube-shell) : An integrated shell for working with the Kubernetes CLI
 - [kube-prompt](https://github.com/c-bata/kube-prompt) : An interactive kubernetes client featuring auto-complete 
-- [K9S](https://github.com/derailed/k9s)
+- [K9S](https://github.com/derailed/k9s) : A terminal UI to interact with your Kubernetes clusters
 - [kube-ps1](https://github.com/jonmosco/kube-ps1) : Kubernetes prompt info for bash and zsh
 - [Stern](https://github.com/wercker/stern) : Multi pod and container log tailing
 - [Kail](https://github.com/boz/kail) : Kubernetes log viewer
