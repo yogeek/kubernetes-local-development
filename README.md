@@ -133,6 +133,7 @@ kubereport () {
 - [Katacoda](https://www.katacoda.com/courses/kubernetes)
 - [Official doc](https://kubernetes.io/docs/home/)
 - Comics
+  - https://www.cncf.io/phippy/
   - https://cloud.google.com/kubernetes-engine/kubernetes-comic/
   - https://www.cncf.io/the-childrens-illustrated-guide-to-kubernetes/
   - https://brennerm.github.io/posts/kubernetes-overview-diagrams.html
