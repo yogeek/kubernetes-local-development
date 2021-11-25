@@ -148,3 +148,4 @@ kubereport () {
 https://cloud.google.com/blog/products/containers-kubernetes/easier-kubernetes-development-from-your-laptop
 https://medium.com/@wso2tech/multi-node-kubernetes-cluster-with-vagrant-virtualbox-and-kubeadm-9d3eaac28b98
 https://garden.slides.com/ellenkorbes/k8sdevtools?token=t3egVfZS#/38
+https://medium.com/google-cloud/kubernetes-nodeport-vs-loadbalancer-vs-ingress-when-should-i-use-what-922f010849e0
