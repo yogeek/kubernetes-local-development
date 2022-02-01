@@ -154,3 +154,5 @@ https://garden.slides.com/ellenkorbes/k8sdevtools?token=t3egVfZS#/38
 https://medium.com/google-cloud/kubernetes-nodeport-vs-loadbalancer-vs-ingress-when-should-i-use-what-922f010849e0
 
 https://ostechnix.com/kubernetes-features/
+
+https://github.com/medmouine/Kubernetes-autoscaling-poster/blob/main/k8s-auto-scaling-poster.pdf
