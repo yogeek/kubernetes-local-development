@@ -128,6 +128,9 @@ kubereport () {
 
 ## Learning
 
+![kubernetes_controlplane](https://github.com/user-attachments/assets/cf8780f8-76be-4e52-95f4-8f3a82e8dcbf)
+
+
 - [Tutorials](https://kubernetes.io/docs/tutorials/)
 - [Playground](https://labs.play-with-k8s.com/)
 - [Katacoda](https://www.katacoda.com/courses/kubernetes)
